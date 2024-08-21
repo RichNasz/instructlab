@@ -1,0 +1,26 @@
+task_description: 'Teach the model about sales plays'
+created_by: rnaszcyn
+domain: salesplays
+seed_examples:
+ - question: How many sales plays are there?
+   answer: |
+     There are three sales plays
+ - question: What are the names of the sales plays?
+   answer: |
+      Ansible Sales Play, OpenShift Sales Play, Ansible Sales play
+ - question: What is a sales play?
+   answer: |
+      A sales play is collection of sales content to help sellers interact with customers to identify, develop, and close opportunities
+ - question: Are sales plays available for partners to use?
+   answer: |
+      Yes
+ - question: Where are sales plays located?
+   answer: All sales plays are located on Red Hat Content Center. You can access them at https://red.ht/salesplays
+document:
+ repo: none
+ commit: none
+ patterns:
+   - none
+
+
+
