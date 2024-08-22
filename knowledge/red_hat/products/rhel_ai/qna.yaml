@@ -1,5 +1,6 @@
 version: 3
-domain: musical_instruments/guitars/scale_length
+domain: red_hat/products/rhel_ai
+
 created_by: RichNasz
 seed_examples:
   - context: |

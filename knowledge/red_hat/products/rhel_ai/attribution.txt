@@ -1,0 +1,9 @@
+Title of work: What is RHEL AI? A guide to the open source way for doing AI
+Link to work: https://www.redhat.com/en/blog/what-rhel-ai-guide-open-source-way-doing-ai
+License of the work: unknown
+Creator names: Tushar Katarki, Jeremy Eder
+
+Title of work: instructlab
+Link to work: https://github.com/instructlab/instructlab
+License of the work: Apache-2.0 license
+Creator names: various
