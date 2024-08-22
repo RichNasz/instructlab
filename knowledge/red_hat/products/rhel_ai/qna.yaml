@@ -13,7 +13,7 @@ seed_examples:
       - question: |
           What is Red Hat Enterprise Linux AI?
         answer: |
-          A foundation model platform to seamlessly develop, test and run best-of-breed, open source Granite 
+          A foundation model platform to seamlessly develop, test and run best-of-breed, open source Granite
           generative AI models to power enterprise applications. RHEL AI is based on the InstructLab open source
           project and combines open source-licensed Granite large language models from IBM Research and InstructLab
           model alignment tools, based on the LAB (Large-scale Alignment for chatBots) methodology, in an optimized,
@@ -21,7 +21,7 @@ seed_examples:
       - question: |
           Is Red Hat Enterprise Linux AI and RHEL AI the same product?
         answer: |
-          Yes! Red Hat Enterprise Linux AI is the official product name that is often refered to as RHEL AI in the 
+          Yes! Red Hat Enterprise Linux AI is the official product name that is often refered to as RHEL AI in the
           interest of brevity.
       - question: |
           Is Red Hat Enterprise Linux AI (RHEL AI) open source?
@@ -51,7 +51,7 @@ seed_examples:
       - question: |
           Does a Red Hat Enterprise Linux AI (RHEL AI) subscription include support?
         answer: |
-          Yes! A Red Hat Enterprise Linux AI (RHEL AI) subscription includes 24x7 production support, plus 
+          Yes! A Red Hat Enterprise Linux AI (RHEL AI) subscription includes 24x7 production support, plus
           extended model lifecycle and model IP indemnification provided by Red Hat.
   - context: |
        A Red Hat Enterprise Linux AI (RHEL AI) subscription includes InstructLab as a component. InstructLab is an
@@ -93,7 +93,7 @@ seed_examples:
       - question: |
           What Granite language models are included with a Red Hat Enterprise Linux AI (RHEL AI) subscription?
         answer: |
-          The English only langiage models includes both the base Granite-7B-Base and the instruction-tuned 
+          The English only langiage models includes both the base Granite-7B-Base and the instruction-tuned
           Granite-7B-Instruct models.
       - question: |
           What Granite code models are included with a Red Hat Enterprise Linux AI (RHEL AI) subscription?
@@ -106,7 +106,7 @@ seed_examples:
        Red Hat Enterprise Linux AI (RHEL AI) is one product in the Red Hat AI platform.
     questions_and_answers:
       - question: |
-          Is Red Hat Enterprise Linux AI (RHEL AI) a product Red Hat AI platform? 
+          Is Red Hat Enterprise Linux AI (RHEL AI) a product Red Hat AI platform?
         answer: |
           Yes! Red Hat Enterprise Linux AI (RHEL AI) a product in the Red Hat AI platform.
           The other product in the Red Hat AI platform is Red Hat OpenShift AI.
