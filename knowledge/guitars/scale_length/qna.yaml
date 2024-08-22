@@ -3,12 +3,15 @@ domain: scale_length
 created_by: RichNasz
 seed_examples:
   - context: |
-      Guitar scale length refers to the distance between the nut (the point between the neck and headstock where the strings start) and the bridge (the point where the strings anchor to the body). This measurement typically ranges from around 24 inches to 26.5 inches, with variations in between.
+      Guitar scale length refers to the distance between the nut (the point between the neck and headstock where the
+      strings start) and the bridge (the point where the strings anchor to the body). This measurement typically
+      ranges from around 24 inches to 26.5 inches, with variations in between.
     questions_and_answers:
       - question: |
           What is the scale length of a guitar?
         answer: |
-          Scale length refers to the distance between the nut (the point between the neck and headstock where the strings start) and the bridge (the point where the strings anchor to the body).
+          Scale length refers to the distance between the nut (the point between the neck and headstock where the
+          strings start) and the bridge (the point where the strings anchor to the body).
       - question: |
           What are popular scale lengths for a guitar?
         answer: |
@@ -16,24 +19,30 @@ seed_examples:
       - question: |
           Are scale lengths different for accoustc and electric guitars?
         answer: |
-          The calculation of scale length is the same for acousti and electric guitars.
+          The calculation of scale length is the same for acoustic and electric guitars.
   - context: |
-       To measure the scale length of a guitar, you can use the following steps. Step one is to measure the distance from the front edge of the nut to the center of the 12th fret. Step two is to double the measurement from step one.
+       To measure the scale length of a guitar, you can use the following steps. Step one is to measure the
+       distance from the front edge of the nut to the center of the 12th fret. Step two is to double the measurement
+       from step one.
     questions_and_answers:
       - question: |
           How do I properly measure the scale length of a guitar?
         answer: |
-          Measure the distance from the front edge of the nut to the center of the 12th fret, and then ouble that measurement.
+          Measure the distance from the front edge of the nut to the center of the 12th fret, and then double
+          that measurement.
       - question: |
           Can I determine guitar scale simply by measuring from the front edge of the nut to the bridge?
         answer: |
-          This is not recommended as bridges may not be installed parallel to the nut, and with electric guitars, intonation adjustments would impact the accuracy of the measurement.
+          This is not recommended as bridges may not be installed parallel to the nut, and with electric guitars
+          intonation adjustments would impact the accuracy of the measurement.
       - question: |
           Is scale length measures in inches or millimeters?
         answer: |
-          Scale length can be measured in either inches or millimeters. Measuring in inches is most common, but measurements in millimeters are gaining popularity for increased accuracy.
+          Scale length can be measured in either inches or millimeters. Measuring in inches is most common, but
+          measurements in millimeters are gaining popularity for increased accuracy.
   - context: |
-       While there’s no one scale length that we can call the universal standard, different electric guitar manufactures tend to settle on standard lengths for their guitars.
+       While there’s no one scale length that we can call the universal standard, different electric guitar
+       manufactures tend to settle on standard lengths for their guitars.
     questions_and_answers:
       - question: |
           What is the standard guitar scale for Fender guitars?
@@ -61,38 +70,50 @@ seed_examples:
       - question: |
           Does scale lenght affect string tension?
         answer: |
-          Yes! The shorter the scale length is, the less tension that is on each string. 
+          Yes! The shorter the scale length is, the less tension that is on each string.
       - question: |
           Does scale length affect intonation?
         answer: |
-          Yes! As a string becomes more taught it loses its flexibility, and in turn, this leads to less accurate intonation.
+          Yes! As a string becomes more taught it loses its flexibility, and in turn, this leads to less accurate
+          intonation.
       - question: |
           Does scale length affect tone?
         answer: |
-          Yes! Scale length determines the points at which string harmonics and overtones occur, and as a result, dictates the tone of your guitar.
+          Yes! Scale length determines the points at which string harmonics and overtones occur, and as a result,
+          dictates the tone of your guitar.
   - context: |
-       Multi-scale guitars are one of the greatest innovations in the guitar industry, though that's not to say multi-scale instruments are modern. In fact, they have been around for centuries, and many classical instruments incoporate multiple scales in their design. For example, the piano and harp have strings of varying lengths for the exact same reasons as multi-scale guitars.
+       Multi-scale guitars are one of the greatest innovations in the guitar industry, though that's not to say
+       multi-scale instruments are modern. In fact, they have been around for centuries, and many classical
+       instruments incoporate multiple scales in their design. For example, the piano and harp have strings of
+       varying lengths for the exact same reasons as multi-scale guitars.
     questions_and_answers:
       - question: |
           Can you have a guitar with mutiple scales?
         answer: |
-          Yes! Such a guitar is refered to as a muli-scale guitar, and it is concept that has been around for centuries.
+          Yes! Such a guitar is refered to as a muli-scale guitar, and it is concept that has been around for
+          centuries.
       - question: |
           Can you recognize the difference between a set scale and a multi-scale guitar?
         answer: |
-          Yes! A gixed scale guitar will have frets that are paralled to the nut and bridge. Mult-scale guitars will have a fanned look which means mant frets will get an agle relative to the nut and bridge which impacts the distance between frets. 
+          Yes! A gixed scale guitar will have frets that are paralled to the nut and bridge. Mult-scale guitars
+          will have a fanned look which means mant frets will get an agle relative to the nut and bridge which
+          impacts the distance between frets.
       - question: |
           Are multi-scale guitars harder to play?
         answer: |
-          Maybe! for many the fan shape of the frets makes playing more comfortable at the wrist. For others, the fanned frets is a disraction they can't get past.
+          Maybe! for many the fan shape of the frets makes playing more comfortable at the wrist. For others, the
+          fanned frets is a disraction they can't get past.
       - question: |
           On a mult-scale guitar does the vertical fret always need to be the same?
         answer: |
-          No! For those who play equal parts rhythm and lead, you probably don't want aggressive fret angles on either end of the fretboard. For such players, a vertical 8th fret is common. However, if you are like most guitarists and play mostly rhythm on your 7 or 8-string, then you might prefer the vertical fret closer to the nut. That way, you don't sacrifice the ease of bar chords across the lower frets.
+          No! For those who play equal parts rhythm and lead, you probably don't want aggressive fret angles on either
+          end of the fretboard. For such players, a vertical 8th fret is common. However, if you are like most
+          guitarists and play mostly rhythm on your 7 or 8-string, then you might prefer the vertical fret closer to
+          the nut. That way, you don't sacrifice the ease of bar chords across the lower frets.
 document_outline: |
   Information about the guitar scale length
 document:
-    repo: git@github.com:RichNasz/instructlab.git
-    commit: 2cce6e1b566ad67d17a57459350238bd8d019a56
-    patterns:
-      - phoenix_constellation.md
+  repo: git@github.com:RichNasz/instructlab.git
+  commit: 2cce6e1b566ad67d17a57459350238bd8d019a56
+  patterns:
+    - phoenix_constellation.md
