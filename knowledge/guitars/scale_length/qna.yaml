@@ -92,7 +92,7 @@ seed_examples:
 document_outline: |
   Information about the guitar scale length
 document:
-    repo: https://github.com/juliadenham/Summit_knowledge
-    commit: 0a1f2672b9b90582e6115333e3ed62fd628f1c0f
+    repo: git@github.com:RichNasz/instructlab.git
+    commit: 2cce6e1b566ad67d17a57459350238bd8d019a56
     patterns:
       - phoenix_constellation.md
