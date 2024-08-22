@@ -113,7 +113,7 @@ seed_examples:
 document_outline: |
   Information about the guitar scale length
 document:
-  repo: git@github.com:RichNasz/instructlab.git
-  commit: 2cce6e1b566ad67d17a57459350238bd8d019a56
+  repo: https://github.com/RichNasz/instructlab.git
+  commit: 6b8c1d2ba696f189b4f64242c79cc886cf724965
   patterns:
-    - phoenix_constellation.md
+    - guitarscale.md
