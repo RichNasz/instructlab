@@ -52,7 +52,7 @@ seed_examples:
         answer: |
           Gretch has standardized on 24.6 inch scale lengths for the majoirty of their guitars.
   - context: |
-       Scale length can impact guitar design and playability in a variety of ways. .
+       Scale length can impact guitar design and playability in a variety of ways.
     questions_and_answers:
       - question: |
           Does scale length affect fret spacing?
