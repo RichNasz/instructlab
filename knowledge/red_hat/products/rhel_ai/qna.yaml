@@ -4,117 +4,127 @@ domain: red_hat/products/rhel_ai
 created_by: RichNasz
 seed_examples:
   - context: |
-      Guitar scale length refers to the distance between the nut (the point between the neck and headstock where the
-      strings start) and the bridge (the point where the strings anchor to the body). This measurement typically
-      ranges from around 24 inches to 26.5 inches, with variations in between.
+      Red Hat Enterprise Linux AI (RHEL AI), a foundation model platform to seamlessly develop, test and run
+      best-of-breed, open source Granite generative AI models to power enterprise applications. RHEL AI is based
+      on the InstructLab open source project and combines open source-licensed Granite large language models from
+      IBM Research and InstructLab model alignment tools, based on the LAB (Large-scale Alignment for chatBots)
+      methodology, in an optimized, bootable RHEL image to simplify server deployments.
     questions_and_answers:
       - question: |
-          What is the scale length of a guitar?
+          What is Red Hat Enterprise Linux AI?
         answer: |
-          Scale length refers to the distance between the nut (the point between the neck and headstock where the
-          strings start) and the bridge (the point where the strings anchor to the body).
+          A foundation model platform to seamlessly develop, test and run best-of-breed, open source Granite 
+          generative AI models to power enterprise applications. RHEL AI is based on the InstructLab open source
+          project and combines open source-licensed Granite large language models from IBM Research and InstructLab
+          model alignment tools, based on the LAB (Large-scale Alignment for chatBots) methodology, in an optimized,
+          bootable RHEL image to simplify server deployments.
       - question: |
-          What are popular scale lengths for electric guitars?
+          Is Red Hat Enterprise Linux AI and RHEL AI the same product?
         answer: |
-          Scale length on electric guitars typically range from 24 inches to 26.5 inches.
+          Yes! Red Hat Enterprise Linux AI is the official product name that is often refered to as RHEL AI in the 
+          interest of brevity.
       - question: |
-          Are scale lengths calculated differently for accoustic and electric guitars?
+          Is Red Hat Enterprise Linux AI (RHEL AI) open source?
         answer: |
-          The calculation of scale length is the same for acoustic and electric guitars.
+          Yes! Red Hat Enterprise Linux AI (RHEL AI) is completely open source which is consistent with all Red Hat
+          products.
   - context: |
-       To measure the scale length of a guitar, you can use the following steps. Step one is to measure the
-       distance from the front edge of the nut to the center of the 12th fret. Step two is to double the measurement
-       from step one.
+       Red Hat Enterprise Linux AI (RHEL AI) includes multiple compontents that are intended to be used together.
     questions_and_answers:
       - question: |
-          How do I properly measure the scale length of a guitar?
+          What are the components that make up the Red Hat Enterprise Linux AI (RHEL AI) product?
         answer: |
-          Measure the distance from the front edge of the nut to the center of the 12th fret, and then double
-          that measurement.
+          RHEL AI includes the following items
+          * Granite family models - Open source-licensed LLMs, distributed under the Apache-2.0 license, with complete
+          transparency on training datasets
+          * InstructLab model alignment tools - Scalable, cost-effective solution for enhancing LLM capabilities and
+          making AI model development open and accessible to all users.
+          * Optimized bootable model runtime instances - Granite models & InstructLab tooling packaged as a bootable
+          RHEL image, including Pytorch/runtime libraries and hardware optimization (NVIDIA, Intel and AMD).
+          * Enterprise support, lifecycle & indemnification - Trusted enterprise platform, 24x7 production support,
+          extended model lifecycle and model IP indemnification by Red Hat.
       - question: |
-          Can I determine guitar scale simply by measuring from the front edge of the nut to the bridge?
+          Does Red Hat Enterprise Linux AI (RHEL AI) come with foundation models for generative AI?
         answer: |
-          This is not recommended as bridges may not be installed parallel to the nut, and with electric guitars
-          intonation adjustments would impact the accuracy of the measurement.
+          Yes! Red Hat Enterprise Linux AI (RHEL AI) includes the IBM Granite family models that are open
+          source-licensed LLMs distributed under the Apache-2.0 license.
       - question: |
-          Is scale length measures in inches or millimeters?
+          Does a Red Hat Enterprise Linux AI (RHEL AI) subscription include support?
         answer: |
-          Scale length can be measured in either inches or millimeters. Measuring in inches is most common, but
-          measurements in millimeters are gaining popularity for increased accuracy.
+          Yes! A Red Hat Enterprise Linux AI (RHEL AI) subscription includes 24x7 production support, plus 
+          extended model lifecycle and model IP indemnification provided by Red Hat.
   - context: |
-       While there’s no one scale length that we can call the universal standard, different electric guitar
-       manufactures tend to settle on standard lengths for their guitars.
+       A Red Hat Enterprise Linux AI (RHEL AI) subscription includes InstructLab as a component. InstructLab is an
+       open-source project by IBM Research and Red Hat® that builds on the Large-Scale Alignment for ChatBots (LAB)
+       technique for a community-driven approach to language model development through skills and knowledge training.
     questions_and_answers:
       - question: |
-          What is the standard guitar scale for Fender guitars?
+          Does a Red Hat Enterprise Linux AI (RHEL AI) subscription include InstructLab?
         answer: |
-          Fender has standardized on 25.5 inch scale lengths for the majoirty of their guitars.
+          Yes! A Red Hat Enterprise Linux AI (RHEL AI) subscription includes InstructLab.
       - question: |
-          What is the standard guitar scale for Gibson guitars?
+          Why would I want to use InstructLab?
         answer: |
-          Gibson has standardized on 24.75 inch scale lengths for the majoirty of their guitars.
+          There are many reasons people use InstructLab. The followig is a list of common reasons:
+          * Jump start your initial use of generative AI solutions that solve question and answer use cases
+          * Securely include private and proprietary data in AI solutions
+          * Increase inclusion of subject matter experts throughout your organization to contribute knowledge and
+          skills using in AI solutions
+          * Reduce the cost of tuning a large language model (LLM) in AI solutions
+          * Increase the velocity of AI solutions developed, and put into production
       - question: |
-          What is the standard guitar scale for PRS guitars?
+          Is InstructLab based on any particular artificial intelligence research?
         answer: |
-          PRS has standardized on 25 inch scale lengths for the majoirty of their guitars.
-      - question: |
-          What is the standard guitar scale for Gretch guitars?
-        answer: |
-          Gretch has standardized on 24.6 inch scale lengths for the majoirty of their guitars.
+          Yes! InstructLab is based on LAB (Large-scale Alignment for chatBots), a novel methodology designed to
+          overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training.
+          Leveraging a taxonomy-guided synthetic data generation process and a multi-phase tuning framework, LAB
+          significantly reduces reliance on expensive human annotations and proprietary models like GPT-4.
+          The LAB: Large-Scale Alignment for ChatBots paper is avaialble for download
+          at https://arxiv.org/abs/2403.01081
   - context: |
-       Scale length can impact guitar design and playability in a variety of ways.
+       The IBM® Granite™ is a family of artificial intelligence (AI) models built for business, to help drive trust and
+       scalability in AI-driven applications. Open source and proprietary Granite models are available today.
     questions_and_answers:
       - question: |
-          Does scale length affect fret spacing?
+          Does a Red Hat Enterprise Linux AI (RHEL AI) subscription include access to Granite family models?
         answer: |
-          Yes! The distance between frets is calculated based on scale length.
+          Yes! A Red Hat Enterprise Linux AI (RHEL AI) subscription include access to to both language and code
+          foundation models that are part of the Granite family.
       - question: |
-          Does scale lenght affect string tension?
+          What Granite language models are included with a Red Hat Enterprise Linux AI (RHEL AI) subscription?
         answer: |
-          Yes! The shorter the scale length is, the less tension that is on each string.
+          The English only langiage models includes both the base Granite-7B-Base and the instruction-tuned 
+          Granite-7B-Instruct models.
       - question: |
-          Does scale length affect intonation?
+          What Granite code models are included with a Red Hat Enterprise Linux AI (RHEL AI) subscription?
         answer: |
-          Yes! As a string becomes more taught it loses its flexibility, and in turn, this leads to less accurate
-          intonation.
-      - question: |
-          Does scale length affect tone?
-        answer: |
-          Yes! Scale length determines the points at which string harmonics and overtones occur, and as a result,
-          dictates the tone of your guitar.
+          The base code models include the Granite-34B-Code-Base, Granite-20B-Code-Base, Granite-8B-Code-Base
+          and Granite-3B-Code-Base models
+          The base code instruction-tuned models include the Granite-34B-Code-Instruct, Granite-20B-Code-Instruct,
+          Granite-8B-Code-Instruct, and Granite-3B-Code-Instruct models.
   - context: |
-       Multi-scale guitars are one of the greatest innovations in the guitar industry, though that's not to say
-       multi-scale instruments are modern. In fact, they have been around for centuries, and many classical
-       instruments incoporate multiple scales in their design. For example, the piano and harp have strings of
-       varying lengths for the exact same reasons as multi-scale guitars.
+       Red Hat Enterprise Linux AI (RHEL AI) is one product in the Red Hat AI platform.
     questions_and_answers:
       - question: |
-          Can you have a guitar with mutiple scale lengths?
+          Is Red Hat Enterprise Linux AI (RHEL AI) a product Red Hat AI platform? 
         answer: |
-          Yes! Such a guitar is refered to as a muli-scale guitar, and it is concept that has been around for
-          centuries.
+          Yes! Red Hat Enterprise Linux AI (RHEL AI) a product in the Red Hat AI platform.
+          The other product in the Red Hat AI platform is Red Hat OpenShift AI.
       - question: |
-          Can you recognize the difference between a set scale length and a multi-scale length guitar?
+          What need does Red Hat Enterprise Linux AI (RHEL AI) satisfy within the Red Hat AI platform?
         answer: |
-          Yes! A gixed scale guitar will have frets that are paralled to the nut and bridge. Mult-scale guitars
-          will have a fanned look which means mant frets will get an agle relative to the nut and bridge which
-          impacts the distance between frets.
+          Red Hat Enterprise Linux AI (RHEL AI) satisfies the need for small Scale (single server) production-grade
+          model training using full synthetic data generation, teacher and critic models. that also includes CLI
+          tooling with building blocks.
       - question: |
-          Are multi-scale guitars harder to play?
+          What need does Red Hat OpenShift AI satisfy within the Red Hat AI platform?
         answer: |
-          Maybe! for many the fan shape of the frets makes playing more comfortable at the wrist. For others, the
-          fanned frets is a disraction they can't get past.
-      - question: |
-          On a mult-scale guitar does the vertical fret always need to be the same?
-        answer: |
-          No! For those who play equal parts rhythm and lead, you probably don't want aggressive fret angles on either
-          end of the fretboard. For such players, a vertical 8th fret is common. However, if you are like most
-          guitarists and play mostly rhythm on your 7 or 8-string, then you might prefer the vertical fret closer to
-          the nut. That way, you don't sacrifice the ease of bar chords across the lower frets.
+          Red Hat OpenShift AI satisfies the need for large scale production-grade model training, serving, and
+          monitoring using full power of hybrid cloud app platform for scaling, automation, and MLOps services.
 document_outline: |
   Information about the guitar scale length
 document:
   repo: https://github.com/RichNasz/instructlab.git
   commit: 138067e2dc7762ea2a5895d3db5c93bd6f5b68c0
   patterns:
-    - knowledge/guitars/scale_length/guitarscale.md
+    - red_hat/products/rhel_ai/rhel_ai.md

@@ -7,3 +7,13 @@ Title of work: instructlab
 Link to work: https://github.com/instructlab/instructlab
 License of the work: Apache-2.0 license
 Creator names: various
+
+Title of work: LAB: Large-Scale Alignment for ChatBots
+Link to work: https://arxiv.org/abs/2403.01081
+License of the work: https://creativecommons.org/licenses/by/4.0/
+Creator names: Akash Srivastava. Equal Contribution: Shivchander Sudalairaj, Abhishek Bhandwaldar, Aldo Pareja, Akash Srivastava
+
+Title of work: Granite models
+Link to work: https://www.ibm.com/granite
+License of the work: unknown
+Creator names: IBM
