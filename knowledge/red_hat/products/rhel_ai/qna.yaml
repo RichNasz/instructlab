@@ -4,7 +4,7 @@ domain: red_hat/products/rhel_ai
 created_by: RichNasz
 seed_examples:
   - context: |
-      Red Hat Enterprise Linux AI (RHEL AI), a foundation model platform to seamlessly develop, test and run
+      Red Hat Enterprise Linux AI (RHEL AI), is a foundation model platform to seamlessly develop, test and run
       best-of-breed, open source Granite generative AI models to power enterprise applications. RHEL AI is based
       on the InstructLab open source project and combines open source-licensed Granite large language models from
       IBM Research and InstructLab model alignment tools, based on the LAB (Large-scale Alignment for chatBots)
@@ -24,10 +24,10 @@ seed_examples:
           Yes! Red Hat Enterprise Linux AI is the official product name that is often refered to as RHEL AI in the
           interest of brevity.
       - question: |
-          Is Red Hat Enterprise Linux AI (RHEL AI) open source?
+          Is Red Hat Enterprise Linux AI (RHEL AI) a feature of Red Hat Enterpise Linux (RHEL)?
         answer: |
-          Yes! Red Hat Enterprise Linux AI (RHEL AI) is completely open source which is consistent with all Red Hat
-          products.
+          No! Red Hat Enterprise Linux AI (RHEL AI) is an indepdent products. Although RHEL AI uses parts of RHEL
+          at the core, it can't be added to an existing RHEL installation.
   - context: |
        Red Hat Enterprise Linux AI (RHEL AI) includes multiple compontents that are intended to be used together.
     questions_and_answers:
@@ -35,10 +35,10 @@ seed_examples:
           What are the components that make up the Red Hat Enterprise Linux AI (RHEL AI) product?
         answer: |
           RHEL AI includes the following items
-          * Granite family models - Open source-licensed LLMs, distributed under the Apache-2.0 license, with complete
-          transparency on training datasets
-          * InstructLab model alignment tools - Scalable, cost-effective solution for enhancing LLM capabilities and
-          making AI model development open and accessible to all users.
+          * Granite family models - Open source-licensed LLMs, distributed under the Apache-2.0 license, with
+          complete transparency on training datasets
+          * InstructLab model alignment tools - Scalable, cost-effective solution for enhancing LLM capabilities
+          and making AI model development open and accessible to all users.
           * Optimized bootable model runtime instances - Granite models & InstructLab tooling packaged as a bootable
           RHEL image, including Pytorch/runtime libraries and hardware optimization (NVIDIA, Intel and AMD).
           * Enterprise support, lifecycle & indemnification - Trusted enterprise platform, 24x7 production support,
@@ -82,7 +82,7 @@ seed_examples:
           The LAB: Large-Scale Alignment for ChatBots paper is avaialble for download
           at https://arxiv.org/abs/2403.01081
   - context: |
-       The IBM® Granite™ is a family of artificial intelligence (AI) models built for business, to help drive trust and
+       IBM Granite is a family of artificial intelligence (AI) models built for business, to help drive trust and
        scalability in AI-driven applications. Open source and proprietary Granite models are available today.
     questions_and_answers:
       - question: |
