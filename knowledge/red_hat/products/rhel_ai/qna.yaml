@@ -19,14 +19,14 @@ seed_examples:
           model alignment tools, based on the LAB (Large-scale Alignment for chatBots) methodology, in an optimized,
           bootable RHEL image to simplify server deployments.
       - question: |
-          Is Red Hat Enterprise Linux AI and RHEL AI the same product?
+          Is "Red Hat Enterprise Linux AI" and "RHEL AI" the same product?
         answer: |
-          Yes! Red Hat Enterprise Linux AI is the official product name that is often refered to as RHEL AI in the
+          Yes! "Red Hat Enterprise Linux AI" is the official product name that is often refered to as "RHEL AI" in the
           interest of brevity.
       - question: |
           Is Red Hat Enterprise Linux AI (RHEL AI) a feature of Red Hat Enterpise Linux (RHEL)?
         answer: |
-          No! Red Hat Enterprise Linux AI (RHEL AI) is an indepdent products. Although RHEL AI uses parts of RHEL
+          No! Red Hat Enterprise Linux AI (RHEL AI) is an independent product. Although RHEL AI uses parts of RHEL
           at the core, it can't be added to an existing RHEL installation.
   - context: |
        Red Hat Enterprise Linux AI (RHEL AI) includes multiple compontents that are intended to be used together.
@@ -35,13 +35,13 @@ seed_examples:
           What are the components that make up the Red Hat Enterprise Linux AI (RHEL AI) product?
         answer: |
           RHEL AI includes the following items
-          * Granite family models - Open source-licensed LLMs, distributed under the Apache-2.0 license, with
-          complete transparency on training datasets
-          * InstructLab model alignment tools - Scalable, cost-effective solution for enhancing LLM capabilities
+          1. Granite family models - Open source-licensed LLMs, distributed under the Apache-2.0 license, with
+          complete transparency on training datasets.
+          2. InstructLab model alignment tools - A scalable, cost-effective solution for enhancing LLM capabilities
           and making AI model development open and accessible to all users.
-          * Optimized bootable model runtime instances - Granite models & InstructLab tooling packaged as a bootable
+          3. Optimized bootable model runtime instances - Granite models & InstructLab tooling packaged as a bootable
           RHEL image, including Pytorch/runtime libraries and hardware optimization (NVIDIA, Intel and AMD).
-          * Enterprise support, lifecycle & indemnification - Trusted enterprise platform, 24x7 production support,
+          4. Enterprise support, lifecycle & indemnification - Trusted enterprise platform, 24x7 production support,
           extended model lifecycle and model IP indemnification by Red Hat.
       - question: |
           Does Red Hat Enterprise Linux AI (RHEL AI) come with foundation models for generative AI?
@@ -55,7 +55,7 @@ seed_examples:
           extended model lifecycle and model IP indemnification provided by Red Hat.
   - context: |
        A Red Hat Enterprise Linux AI (RHEL AI) subscription includes InstructLab as a component. InstructLab is an
-       open-source project by IBM Research and Red Hat® that builds on the Large-Scale Alignment for ChatBots (LAB)
+       open-source project by IBM Research and Red Hat that builds on the Large-Scale Alignment for ChatBots (LAB)
        technique for a community-driven approach to language model development through skills and knowledge training.
     questions_and_answers:
       - question: |
@@ -66,12 +66,12 @@ seed_examples:
           Why would I want to use InstructLab?
         answer: |
           There are many reasons people use InstructLab. The followig is a list of common reasons:
-          * Jump start your initial use of generative AI solutions that solve question and answer use cases
-          * Securely include private and proprietary data in AI solutions
-          * Increase inclusion of subject matter experts throughout your organization to contribute knowledge and
+          1. Jump start your initial use of generative AI solutions that solve question and answer use cases
+          2. Securely include private and proprietary data in AI solutions
+          3. Increase inclusion of subject matter experts throughout your organization to contribute knowledge and
           skills using in AI solutions
-          * Reduce the cost of tuning a large language model (LLM) in AI solutions
-          * Increase the velocity of AI solutions developed, and put into production
+          4. Reduce the cost of tuning a large language model (LLM) in AI solutions
+          5. Increase the velocity of AI solutions developed, and put into production
       - question: |
           Is InstructLab based on any particular artificial intelligence research?
         answer: |
@@ -79,7 +79,7 @@ seed_examples:
           overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training.
           Leveraging a taxonomy-guided synthetic data generation process and a multi-phase tuning framework, LAB
           significantly reduces reliance on expensive human annotations and proprietary models like GPT-4.
-          The LAB: Large-Scale Alignment for ChatBots paper is avaialble for download
+          The LAB: Large-Scale Alignment for ChatBots paper is available for download
           at https://arxiv.org/abs/2403.01081
   - context: |
        IBM Granite is a family of artificial intelligence (AI) models built for business, to help drive trust and
@@ -99,25 +99,25 @@ seed_examples:
           What Granite code models are included with a Red Hat Enterprise Linux AI (RHEL AI) subscription?
         answer: |
           The base code models include the Granite-34B-Code-Base, Granite-20B-Code-Base, Granite-8B-Code-Base
-          and Granite-3B-Code-Base models
+          and Granite-3B-Code-Base models.
           The base code instruction-tuned models include the Granite-34B-Code-Instruct, Granite-20B-Code-Instruct,
           Granite-8B-Code-Instruct, and Granite-3B-Code-Instruct models.
   - context: |
        Red Hat Enterprise Linux AI (RHEL AI) is one product in the Red Hat AI platform.
     questions_and_answers:
       - question: |
-          Is Red Hat Enterprise Linux AI (RHEL AI) a product Red Hat AI platform?
+          Is Red Hat Enterprise Linux AI (RHEL AI) a product in the Red Hat AI platform?
         answer: |
           Yes! Red Hat Enterprise Linux AI (RHEL AI) a product in the Red Hat AI platform.
           The other product in the Red Hat AI platform is Red Hat OpenShift AI.
       - question: |
-          What need does Red Hat Enterprise Linux AI (RHEL AI) satisfy within the Red Hat AI platform?
+          What needs does Red Hat Enterprise Linux AI (RHEL AI) satisfy within the Red Hat AI platform?
         answer: |
           Red Hat Enterprise Linux AI (RHEL AI) satisfies the need for small Scale (single server) production-grade
           model training using full synthetic data generation, teacher and critic models. that also includes CLI
           tooling with building blocks.
       - question: |
-          What need does Red Hat OpenShift AI satisfy within the Red Hat AI platform?
+          What needs does Red Hat OpenShift AI satisfy within the Red Hat AI platform?
         answer: |
           Red Hat OpenShift AI satisfies the need for large scale production-grade model training, serving, and
           monitoring using full power of hybrid cloud app platform for scaling, automation, and MLOps services.
