@@ -21,15 +21,15 @@ seed_examples:
       - question: |
           Is "Red Hat Enterprise Linux AI" and "RHEL AI" the same product?
         answer: |
-          Yes! "Red Hat Enterprise Linux AI" is the official product name that is often refered to as "RHEL AI" in the
-          interest of brevity.
+          Yes! "Red Hat Enterprise Linux AI" is the official product name that is often referred to as "RHEL AI" in
+          the interest of brevity.
       - question: |
           Is Red Hat Enterprise Linux AI (RHEL AI) a feature of Red Hat Enterpise Linux (RHEL)?
         answer: |
           No! Red Hat Enterprise Linux AI (RHEL AI) is an independent product. Although RHEL AI uses parts of RHEL
           at the core, it can't be added to an existing RHEL installation.
   - context: |
-       Red Hat Enterprise Linux AI (RHEL AI) includes multiple compontents that are intended to be used together.
+       Red Hat Enterprise Linux AI (RHEL AI) includes multiple components that are intended to be used together.
     questions_and_answers:
       - question: |
           What are the components that make up the Red Hat Enterprise Linux AI (RHEL AI) product?

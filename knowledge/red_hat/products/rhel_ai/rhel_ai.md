@@ -10,7 +10,7 @@ Enterprise support, lifecycle & indemnification - Trusted enterprise platform, 2
 
 LAB: Large-Scale Alignment for ChatBots
 Large-scale Alignment for chatBots, abbreviated as LAB, is a novel methodology designed to overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training. Leveraging a taxonomy-guided synthetic data generation process and a multi-phase tuning framework, LAB significantly reduces reliance on expensive human annotations and proprietary models like GPT-4. We demonstrate that LAB-trained models can achieve competitive performance across several benchmarks compared to models trained with traditional human-annotated or GPT-4 generated synthetic data. Thus offering a scalable, cost-effective solution for enhancing LLM capabilities and instruction-following behaviors without the drawbacks of catastrophic forgetting, marking a step forward in the efficient training of LLMs for a wide range of applications.
-For more information refer to the [LAB: Large-Scale Alignment for ChatBots](https://arxiv.org/abs/2403.01081) paper.
+For more information refer to the LAB: Large-Scale Alignment for ChatBots paper available at https://arxiv.org/abs/2403.01081
 
 IBM Granite models
-IBM® Granite™ is a family of artificial intelligence (AI) models built for business, to help drive trust and scalability in AI-driven applications. Open source and proprietary Granite models are available today. For more information refer to the [BIM Granite models](https://www.ibm.com/granite) web page.
+IBM Granite™ is a family of artificial intelligence (AI) models built for business, to help drive trust and scalability in AI-driven applications. Open source and proprietary Granite models are available today. For more information refer to the IBM Granite models web page at https://www.ibm.com/granite
