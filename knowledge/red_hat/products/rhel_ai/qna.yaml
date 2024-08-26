@@ -125,6 +125,6 @@ document_outline: |
   Information about the guitar scale length
 document:
   repo: https://github.com/RichNasz/instructlab.git
-  commit: 043028c524b578fdef27807189d97d9e6d61f249
+  commit: 50138ccdb5d32fee95efcd9db364d00f6abf92d5
   patterns:
     - knowledge/red_hat/products/rhel_ai/rhel_ai.md
