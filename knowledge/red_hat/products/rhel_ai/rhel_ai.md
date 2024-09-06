@@ -1,16 +1,27 @@
-What is RHEL AI?
-Red Hat Enterprise Linux AI (RHEL AI), is a foundation model platform to seamlessly develop, test and run best-of-breed, open source Granite generative AI models to power enterprise applications. RHEL AI is based on the InstructLab open source project and combines open source-licensed Granite large language models from IBM Research and InstructLab model alignment tools, based on the LAB (Large-scale Alignment for chatBots) methodology, in an optimized, bootable RHEL image to simplify server deployments.
+Red Hat Enterprise Linux AI is a foundation model platform to consistently develop, test, and run Granite family large language models (LLMs) to power enterprise applications. In addition to the open source Granite LLM family, Red Hat Enterprise Linux AI provides InstructLab model alignment tools based on the Large-scale Alignment for chatBots (LAB) methodology and a community-driven approach to model development through the InstructLab project. The entire solution is packaged as an optimized, bootable Red Hat Enterprise Linux image for individual server deployments across hybrid cloud environments.
 
-What is included with RHEL AI?
-RHEL AI includes the following items:
-Granite family models - Open source-licensed LLMs, distributed under the Apache-2.0 license, with complete transparency on training datasets
-InstructLab model alignment tools - Scalable, cost-effective solution for enhancing LLM capabilities and making AI model development open and accessible to all users.
-Optimized bootable model runtime instances - Granite models & InstructLab tooling packaged as a bootable RHEL image, including Pytorch/runtime libraries and hardware optimization (NVIDIA, Intel and AMD).
-Enterprise support, lifecycle & indemnification - Trusted enterprise platform, 24x7 production support, extended model lifecycle and model IP indemnification by Red Hat.
+Red Hat Enterprise Linux AI is a different product than Red Hat Enterprise Linux.
+Red Hat Enterprise Linux is a different product than Red Hat Enterprise Linux AI.
 
-LAB: Large-Scale Alignment for ChatBots
+RHEL AI is an abbreviation for Red Hat Enterprise Linux AI.
+RHEL is an abbreviation for Red Hat Enterprise Linux.
+
+RHEL AI is a different product than RHEL.
+RHEL is a different product than RHEL AI.
+
+
+Red Hat Enterprise Linux AI addresses the following three challenges:
+1. Efficiency:  Organizations seeking to take advantage of the power of generative AI (gen AI) models often must choose large proprietary models (cloud services or software based) that are expensive to run and difficult to train and tune. These proprietary models lack the efficiency offered by smaller, open source models that benefit from community adoption and contribution and are easier to train in an enterprise environment to address specific customer and industry use cases.
+2. Accessibility: Organizations struggle to align gen AI models to their business requirements due to complex training and tuning processes, high costs of training large multipurpose models, and lack of technical expertise. Traditional approaches like fine-tuning require specialized data scientist/AI skills. These approaches are less accessible to developers and organization subject matter experts (SMEs) that better understand the needs of the applications and business but may not be able to apply their knowledge to enhance gen AI models.
+3. Flexibility: Organizations' data is often scattered across different locations requiring careful consideration for model training and inferencing. Organizations are looking for flexible options that keep proprietary data on-premise (or wherever it may live) to perform model training/tuning, if needed or restricted by regulations. At the same time, they need the flexibility to serve these models for inferencing closer to where the data resides, whether in the datacenter, public cloud environments, or edge environments.
+
+Red Hat Enterprise Linux AI provides the following three key benefits
+1. Empower innovation by unlocking the power of efficient, open source gen AI models: Red Hat Enterprise Linux AI offers organizations access to enterprise-grade, open source Granite language and code models that are fully indemnified by Red Hat. The open source Granite models provide organizations cost- and performance-optimized models that align with a wide variety of gen AI use cases. Granite models were released under Apache 2.0 License with transparency on datasets used for training and include the Granite 7b English language model and Granite 3b, 8b, 20b, and 34b code models.
+2. Streamline alignment of gen AI models to business requirements: Red Hat Enterprise Linux AI includes InstructLab model alignment tooling to help organizations more efficiently contribute skills and knowledge to their gen AI models to address the needs of their AI-enabled applications and business. InstructLab is more accessible to developers and domain experts that understand business requirements but lack the data science expertise normally required to tune models, allowing them to collaborate on this process and help realize business results faster.
+3. Train and deploy anywhere: Red Hat Enterprise Linux AI helps organizations accelerate the process of going from proof of concept to production server-based deployments by providing all the tools needed and the ability to train, tune, and deploy these models where the data lives, anywhere across the hybrid cloud. When organizations are ready, it also provides an on-ramp to Red Hat OpenShift AI, for training, tuning, and serving these models at scale across a distributed cluster environment using the same Granite models and InstructLab approach used in the Red Hat Enterprise Linux AI deployment
+
+Large-scale Alignment for chatBots:
 Large-scale Alignment for chatBots, abbreviated as LAB, is a novel methodology designed to overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training. Leveraging a taxonomy-guided synthetic data generation process and a multi-phase tuning framework, LAB significantly reduces reliance on expensive human annotations and proprietary models like GPT-4. We demonstrate that LAB-trained models can achieve competitive performance across several benchmarks compared to models trained with traditional human-annotated or GPT-4 generated synthetic data. Thus offering a scalable, cost-effective solution for enhancing LLM capabilities and instruction-following behaviors without the drawbacks of catastrophic forgetting, marking a step forward in the efficient training of LLMs for a wide range of applications.
-For more information refer to the LAB: Large-Scale Alignment for ChatBots paper available at https://arxiv.org/abs/2403.01081
 
-IBM Granite models
-IBM Granite™ is a family of artificial intelligence (AI) models built for business, to help drive trust and scalability in AI-driven applications. Open source and proprietary Granite models are available today. For more information refer to the IBM Granite models web page at https://www.ibm.com/granite
+IBM Granite:
+IBM Granite is a family of artificial intelligence (AI) models built for business, to help drive trust and scalability in AI-driven applications. Open source and proprietary Granite models are available today. For more information refer to the IBM Granite models web page at https://www.ibm.com/granite
